@@ -1,0 +1,20 @@
+{
+  "SCHEME-001": {
+    "required_fields": ["age", "income_monthly", "occupation", "district"],
+    "rules": {
+      "min_age": 18,
+      "income_cap": 20000,
+      "requires_farmer": true
+    },
+    "documents": ["આધારકાર્ડ", "જમીનના કાગળ"]
+  },
+  "SCHEME-002": {
+    "required_fields": ["age", "income_monthly", "student", "district"],
+    "rules": {
+      "max_age": 30,
+      "income_cap": 15000,
+      "requires_student": true
+    },
+    "documents": ["આધારકાર્ડ", "અભ્યાસ પ્રમાણપત્ર"]
+  }
+}
